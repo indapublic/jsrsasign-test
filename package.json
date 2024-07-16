@@ -1,0 +1,22 @@
+{
+  "name": "jsrsasign-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jsrsasign": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/jsrsasign": "^10.5.14",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
